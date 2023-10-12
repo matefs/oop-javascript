@@ -143,27 +143,9 @@ gato.fazerSom(); // Saída: "O gato mia."
 
 ### **6. Encapsulamento:**
 
-Restringe acesso direto a propriedades/métodos, permitindo controle sobre a manipulação dos dados.
+Restringe acesso direto a propriedades/métodos, permitindo controle sobre a manipulação dos dados. 
 
-```jsx
-
-function ContaBancaria() {
-    let saldo = 0;
-
-    this.depositar = function(valor) {
-        saldo += valor;
-    };
-
-    this.verSaldo = function() {
-        console.log("Saldo: " + saldo);
-    };
-}
-
-let conta = new ContaBancaria();
-conta.depositar(100);
-conta.verSaldo(); // Saída: "Saldo: 100"
-
-```
+- Basicamente criar metodos ou atributos privados em uma classe. Só poderão ser modificados por métodos internos daquela classe. 
 
 ### **7. Extends vs. Implements:**
 
