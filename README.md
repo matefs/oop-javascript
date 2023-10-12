@@ -32,41 +32,10 @@ A **Programação Orientada a Objetos (POO)** é um paradigma de programação q
 
 Representam dados e comportamentos, contendo propriedades e métodos.
 
-```jsx
-
-let pessoa = {
-    nome: "João",
-    idade: 30,
-    saudacao: function() {
-        console.log("Olá, meu nome é " + this.nome + " e eu tenho " + this.idade + " anos.");
-    }
-};
-
-pessoa.saudacao();
-
-```
 
 ### **2. Classes:**
 
 São modelos para criar objetos, definindo estrutura, propriedades e métodos compartilhados.
-
-```jsx
- 
-class Pessoa {
-    constructor(nome, idade) {
-        this.nome = nome;
-        this.idade = idade;
-    }
-
-    saudacao() {
-        console.log("Olá, meu nome é " + this.nome + " e eu tenho " + this.idade + " anos.");
-    }
-}
-
-let pessoa = new Pessoa("João", 30);
-pessoa.saudacao(); // Saída: "Olá, meu nome é João e eu tenho 30 anos."
-
-```
 
 ### **3. Diferença entre Objeto Literal e Objeto de Classe:**
 
@@ -90,56 +59,9 @@ pessoa.saudacao(); // Saída: "Olá, meu nome é João e eu tenho 30 anos."
 
 Permite que classes herdem propriedades/métodos de outras, estabelecendo relações superclasse e subclasse.
 
-```jsx
-
-class Animal {
-    falar() {
-        console.log("Este animal faz um som.");
-    }
-}
-
-class Cachorro extends Animal {
-    falar() {
-        console.log("O cachorro late.");
-    }
-}
-
-let cachorro = new Cachorro();
-cachorro.falar(); // Saída: "O cachorro late."
-
-```
-
 ### **5. Polimorfismo:**
 
 Permite que objetos de diferentes classes sejam tratados como da mesma classe, permitindo a substituição de métodos específicos.
-
-```jsx
-
-class Animal {
-    fazerSom() {
-        console.log("Este animal faz um som.");
-    }
-}
-
-class Cachorro extends Animal {
-    fazerSom() {
-        console.log("O cachorro late.");
-    }
-}
-
-class Gato extends Animal {
-    fazerSom() {
-        console.log("O gato mia.");
-    }
-}
-
-let cachorro = new Cachorro();
-let gato = new Gato();
-
-cachorro.fazerSom(); // Saída: "O cachorro late."
-gato.fazerSom(); // Saída: "O gato mia."
-
-```
 
 ### **6. Encapsulamento:**
 
