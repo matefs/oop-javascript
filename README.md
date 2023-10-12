@@ -25,7 +25,7 @@ A **Programação Orientada a Objetos (POO)** é um paradigma de programação q
 Representam dados e comportamentos, contendo propriedades e métodos.
 
 ```jsx
-javascriptCopy code
+
 let pessoa = {
     nome: "João",
     idade: 30,
@@ -83,7 +83,7 @@ pessoa.saudacao(); // Saída: "Olá, meu nome é João e eu tenho 30 anos."
 Permite que classes herdem propriedades/métodos de outras, estabelecendo relações superclasse e subclasse.
 
 ```jsx
-javascriptCopy code
+
 class Animal {
     falar() {
         console.log("Este animal faz um som.");
@@ -106,7 +106,7 @@ cachorro.falar(); // Saída: "O cachorro late."
 Permite que objetos de diferentes classes sejam tratados como da mesma classe, permitindo a substituição de métodos específicos.
 
 ```jsx
-javascriptCopy code
+
 class Animal {
     fazerSom() {
         console.log("Este animal faz um som.");
@@ -138,7 +138,7 @@ gato.fazerSom(); // Saída: "O gato mia."
 Restringe acesso direto a propriedades/métodos, permitindo controle sobre a manipulação dos dados.
 
 ```jsx
-javascriptCopy code
+
 function ContaBancaria() {
     let saldo = 0;
 
