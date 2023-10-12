@@ -1,0 +1,16 @@
+{
+  "name": "oop-javascript",
+  "version": "1.0.0",
+  "description": "A **Programação Orientada a Objetos (POO)** é um paradigma de programação que modela programas baseados no mundo real, usando conceitos como objetos, classes, herança e polimorfismo. No contexto da POO, existem princípios SOLID que são um conjunto de regras e práticas para orientar a implementação desse paradigma.",
+  "main": "classes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
+  }
+}

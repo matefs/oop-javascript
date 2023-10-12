@@ -1,0 +1,26 @@
+# Arquivos temporários
+node_modules
+
+# Arquivos de build
+dist
+out
+
+# Logs e arquivos de debug
+logs
+*.log
+npm-debug.log*
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+
+# Dependências de IDE/editor
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
