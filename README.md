@@ -1,5 +1,5 @@
 
-# POOO README
+# Object Oriented Programming   
 
 A **Programação Orientada a Objetos (POO)** é um paradigma de programação que modela programas baseados no mundo real, usando conceitos como objetos, classes, herança e polimorfismo. No contexto da POO, existem princípios SOLID que são um conjunto de regras e práticas para orientar a implementação desse paradigma.
 
