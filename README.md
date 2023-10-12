@@ -7,7 +7,7 @@ A **Programação Orientada a Objetos (POO)** é um paradigma de programação q
 ```
 - `npx tsx nomearquivo.js `  ou 
 - `npx tsx nomearquivo.ts`
-
+- Compilar o código: `tsc` 
 ```
 
 
@@ -68,6 +68,11 @@ Permite que objetos de diferentes classes sejam tratados como da mesma classe, p
 Restringe acesso direto a propriedades/métodos, permitindo controle sobre a manipulação dos dados. 
 
 - Basicamente criar metodos ou atributos privados em uma classe. Só poderão ser modificados por métodos internos daquela classe. 
+
+```diff
+- Observação: Os métodos e atributos das privados das classes devem começar com "_" para identifica-los.
+
+```
 
 ### **7. Extends vs. Implements:**
 
